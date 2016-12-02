@@ -1,0 +1,18 @@
+@mixin col2() {
+    width: 50%;
+}
+@mixin col3() {
+    width: 30%;
+}
+@mixin col4() {
+    width: 22%;
+}
+.col-2 {
+    @include col2;
+}
+.col-3 {
+    @include col3;
+}
+.col-4 {
+    @include col4;
+}
